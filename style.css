@@ -1,1 +1,65 @@
-/* Start coding here */
+* {
+	margin: 0px;
+}
+/*-------------------- head section start here--------------------*/
+.nav-header {
+	margin: 52px 128px;
+	height: 80px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	color: black;
+}
+.nav-header .nav-logo {
+	font-size: 32px;
+}
+.nav-header .nav-navbar {
+	gap: 48px;
+	display: flex;
+	flex-direction: row;
+	font-size: 16px;
+	color: black;
+}
+.nav-header > .nav-navbar > .nav-home {
+	text-decoration: underline;
+	color: #5e44ff;
+}
+.hero-section {
+	margin: 120px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: black;
+	font-size: 16;
+}
+.hero-section .hero-Productivity {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 236px;
+	height: 40px;
+	border-radius: 20px;
+	background: #573aff34;
+	color: #5e44ff;
+}
+.hero-section .hero-main {
+	margin-top: 40px;
+	margin-bottom: 24px;
+	font-size: 80px;
+}
+.hero-section > .hero-main > span {
+	color: #5e44ff;
+}
+.hero-section > .hero-title {
+	font-size: 24px;
+}
+.hero-section .hero-button-start {
+	margin-top: 40px;
+	width: 187px;
+	height: 56px;
+	border-radius: 16px;
+	background: black;
+	color: white;
+}
+/*-------------------- head section end here--------------------*/
