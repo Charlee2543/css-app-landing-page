@@ -64,3 +64,167 @@
 	color: white;
 }
 /*-------------------- head section end here--------------------*/
+/*Contect Section start here*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: inter, serif;
+}
+
+.contact {
+    width: 1439px;
+    height: 850px;
+    background-color: #F6F6FB;
+    padding: 0 120px 80px 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-content {
+    width: 1199px;
+    height: 666px;
+    background-color: #FFFFFFB2;
+    border-radius: 24px;
+    padding: 80px 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.contact-content > h2 {
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.contact-content-input {
+    width: 589px;
+    height: 322px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    color: #5F5F76;
+}
+
+.input-name {
+    width: 589px;
+    height: 76px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.input-name > p {
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+.input-name > input {
+    width: 589px;
+    height: 48px;
+    background-color: #FFFFFF;
+    border: 1px solid #E0E0ED;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.input-name > input::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.input-email {
+    width: 589px;
+    height: 76px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.input-email > p {
+    width: 589px;
+    height: auto;
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+.input-email > input {
+    width: 589px;
+    height: 48px;
+    background-color: #FFFFFF;
+    border: 1px solid #E0E0ED;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.input-email > input::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.input-message {
+    width: 589px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.input-message > p {
+    width: 589px;
+    height: auto;
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+.input-message > textarea {
+    width: 589px;
+    height: 102px;
+    background-color: #FFFFFF;
+    border: 1px solid #E0E0ED;
+    border-radius: 12px;
+    gap: 10px;
+}
+
+.input-message > textarea::placeholder {
+    vertical-align: top;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 12px 2px 2px 16px;
+}
+
+.input-button {
+    width: 589px;
+    height: 56px;
+    border-radius: 16px;
+    padding: 16px 36px;
+    gap: 6px;
+    background-color: #1A1A2C;
+    font-size: 16px;
+    font-weight: 400;
+    color:#FFFFFF;
+}
+
+.footer {
+    width: 1199px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    color: #5F5F76;
+}
+
+.footer-company {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 37px
+}
+
+/* Contact section end here */
